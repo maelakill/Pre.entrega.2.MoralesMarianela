@@ -34,16 +34,74 @@ body{
 
 
               /*Estilos para el index*/
+ /* carrusel*/
+ #carouselExampleCaptions{
+    width:700px; 
+ }
+ .carousel-item img{
+    height: 500px;
+ }
 
 
         
 
                  /*Estilos para quienes somos*/
+
+
+
+
+
+
                  /*Estilos para nuestros productos*/
-h3{
+ h1, h2, h3 {
     color: white;
 }
+                         /* cards*/
+    .padre-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }     
+    
+    .card img{
+        height: 200px;
+    }
+         /*Para tablets*/
+         @media (min-width: 768px) {
+            .padre-cards{
+                 display: grid;
+                 grid-template-columns: repeat(2, 1fr);
+                 justify-items: center;
+            }
+         }
 
+         /*para desktop*/
+         @media (min-width: 992px){
+            .padre-cards{
+                grid-template-columns: repeat(3, 1fr);
+
+            }
+         }
+
+         /*para desktop grande*/
+         @media (min-width:1200px){
+            .padre-cards{
+                display: flex;flex-direction: row;
+                flex-wrap: wrap;
+            }
+        
+         
+            
+
+         
 
                  /*Estilos para fotos*/
+
+
+
+
+
+
+
                  /*Estilos para donde encontrarnos*/
