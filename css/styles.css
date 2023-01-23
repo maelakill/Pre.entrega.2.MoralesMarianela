@@ -1,0 +1,49 @@
+            /*Estilos generales para los 5 HTML*/
+.css{
+margin: 0;
+padding: 0; 
+}
+
+.logo{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+body{
+    background-image:linear-gradient(to bottom, rgb(120, 8, 120), rgb(206, 116, 131),rgb(166, 166, 7), grey);
+    font-family:'M PLUS Rounded 1c', sans-serif;  
+}
+.navbar-toggler{
+    background-color: rgb(96, 16, 216);
+    border: solid 1px rgb (96,16,216);
+}
+.navbar-brand{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+
+
+
+              /*Estilos para el index*/
+
+
+        
+
+                 /*Estilos para quienes somos*/
+                 /*Estilos para nuestros productos*/
+h3{
+    color: white;
+}
+
+
+                 /*Estilos para fotos*/
+                 /*Estilos para donde encontrarnos*/
